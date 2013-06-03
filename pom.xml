@@ -13,6 +13,22 @@
   <description>A Java wrapper for Mandrill</description>
   <url>https://github.com/cribbstechnologies/Java-Mandrill-Wrapper</url>
 
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>2.3.2</version>
+          <configuration>
+            <source>1.6</source>
+            <target>1.6</target>
+            <compilerArgument></compilerArgument>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
   <developers>
     <developer>
       <name>Brian Cribbs</name>
